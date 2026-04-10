@@ -35,7 +35,7 @@ export default function LoadingScreen() {
         </div>
       </div>
       <h2 style={{ fontSize:'20px', fontWeight:800, color:t.text.primary, marginBottom:'4px', textAlign:'center' }}>Mapping your journey</h2>
-      <p style={{ fontSize:'13px', marginBottom:'32px', textAlign:'center', color:t.text.muted }}>Hey {data.name||'there'}, crafting your {data.skill} roadmap</p>
+      <p style={{ fontSize:'13px', marginBottom:'32px', textAlign:'center', color:t.text.muted }}>Hi {data.name||'there'}, crafting your {data.skill} roadmap</p>
       <div style={{ width:'100%', maxWidth:'260px', marginBottom:'28px' }}>
         <div style={{ height:'4px', borderRadius:'100px', overflow:'hidden', background:t.bg.secondary }}>
           <div style={{ height:'100%', borderRadius:'100px', transition:'width 0.3s', width:`${Math.min(pct,100)}%`, background:t.accent.gradient }}/>

@@ -16,7 +16,7 @@ export default function StepLearningStyle() {
     <div style={{ animation:'slide-up 0.5s ease-out forwards' }}>
       <p style={stepLabel(t)}>Step 3 of 7</p>
       <h2 style={stepTitle(t)}>How do you learn<br/>best?</h2>
-      <p style={stepDesc(t)}>Dora will prioritise resources that match</p>
+      <p style={stepDesc(t)}>We&apos;ll prioritise resources that match</p>
       <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:'10px', marginBottom:'24px' }}>
         {styles.map((s,i)=>(
           <button key={s.id} onClick={()=>{ setField('learningStyle',s.id); setTimeout(nextStep,200); }}

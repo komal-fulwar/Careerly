@@ -2,10 +2,19 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Hey Dora — Google Maps for Your Career",
+  title: "Careerly — Google Maps for Your Career",
   description:
     "AI-powered career roadmap that tells you what to learn, where to learn it, and how much you'll earn in India. Personalized learning paths, platform comparisons, and salary insights.",
-  keywords: ["career roadmap", "learning path", "salary insights", "India", "AI career guide"],
+  keywords: ["career roadmap", "learning path", "salary insights", "India", "AI career guide", "careerly"],
+  icons: {
+    icon: "/favicon.svg",
+    apple: "/favicon.svg",
+  },
+  openGraph: {
+    title: "Careerly — Google Maps for Your Career",
+    description: "AI-powered career roadmap with salary insights and personalized learning paths.",
+    type: "website",
+  },
 };
 
 export const viewport: Viewport = {
@@ -14,6 +23,7 @@ export const viewport: Viewport = {
   maximumScale: 1,
   userScalable: false,
   viewportFit: "cover",
+  themeColor: "#4f46e5",
 };
 
 export default function RootLayout({

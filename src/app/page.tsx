@@ -49,8 +49,7 @@ export default function Home() {
             <CompassIcon size={12} color="#fff" />
           </div>
           <h1 style={{ fontSize: '18px', fontWeight: 800, margin: 0 }}>
-            <span style={{ color: t.accent.primary }}>Hey</span>{' '}
-            <span style={{ color: t.text.primary }}>Dora</span>
+            <span style={{ color: t.accent.primary }}>Career</span><span style={{ color: t.text.primary }}>ly</span>
           </h1>
         </div>
         <ProgressBar currentStep={step} totalSteps={7} />

@@ -33,7 +33,7 @@ export default function StepSkill() {
     <div style={{ animation: 'slide-up 0.5s ease-out forwards' }}>
       <p style={stepLabel(t)}>Step 2 of 7</p>
       <h2 style={stepTitle(t)}>What do you want<br />to learn?</h2>
-      <p style={stepDesc(t)}>Pick a skill and Dora will map your path</p>
+      <p style={stepDesc(t)}>Pick a skill and we&apos;ll map your path</p>
 
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '8px', marginBottom: '12px' }}>
         {visible.map((s, i) => (

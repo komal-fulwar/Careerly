@@ -12,7 +12,7 @@ export default function StepName() {
   return (
     <div style={{ animation: 'slide-up 0.5s ease-out forwards' }}>
       <p style={stepLabel(t)}>Step 1 of 7</p>
-      <h2 style={stepTitle(t)}>What should Dora<br />call you?</h2>
+      <h2 style={stepTitle(t)}>What should we<br />call you?</h2>
       <p style={stepDesc(t)}>Let&apos;s personalise your learning journey</p>
       <input id="name-input" type="text" value={v} onChange={(e) => setV(e.target.value)} onKeyDown={(e) => e.key === 'Enter' && go()} placeholder="Your name" autoFocus
         style={{ width: '100%', padding: '14px 16px', borderRadius: t.radius.md, fontSize: '15px', fontWeight: 500, color: t.text.primary, background: t.bg.input, border: `1.5px solid ${ok ? t.accent.primary : t.border.subtle}`, outline: 'none', transition: 'all 0.3s', fontFamily: 'inherit', marginBottom: '16px', minHeight: '48px' }} />

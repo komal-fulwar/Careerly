@@ -10,7 +10,7 @@ interface Msg { role: 'user' | 'dora'; text: string; }
 function generateResponse(input: string, skill: string, name: string, t: Theme): string {
   const q = input.toLowerCase();
   if (q.includes('hello') || q.includes('hi') || q.includes('hey'))
-    return `Hey ${name}! 👋 I'm Dora, your career companion. How can I help you today? I know a lot about ${skill} — ask me anything!`;
+    return `Hey ${name}! 👋 I'm Careerly AI, your career companion. How can I help you today? I know a lot about ${skill} — ask me anything!`;
   if (q.includes('salary') || q.includes('earn') || q.includes('pay') || q.includes('money'))
     return `Great question! For ${skill} in India:\n\n• Entry level: ₹4-8L/year\n• Mid level (2-4 yrs): ₹10-20L/year\n• Senior (5+ yrs): ₹25-50L/year\n\nTop companies like Google, Microsoft pay significantly more. Want me to break it down by role?`;
   if (q.includes('how long') || q.includes('time') || q.includes('duration'))
@@ -55,7 +55,7 @@ export default function ChatView() {
   // Initial greeting
   useEffect(() => {
     const timer = setTimeout(() => {
-      setMsgs([{ role: 'dora', text: `Hey ${name}! 🎯 I'm Dora, your AI career guide. I know everything about ${skill} — from salary ranges to the best learning resources.\n\nTry asking me:\n• "How much can I earn?"\n• "Where should I start?"\n• "How long will it take?"\n• "Suggest projects to build"` }]);
+      setMsgs([{ role: 'dora', text: `Hey ${name}! 🎯 I'm Careerly AI, your career guide. I know everything about ${skill} — from salary ranges to the best learning resources.\n\nTry asking me:\n• "How much can I earn?"\n• "Where should I start?"\n• "How long will it take?"\n• "Suggest projects to build"` }]);
     }, 500);
     return () => clearTimeout(timer);
   }, [name, skill]);
@@ -81,7 +81,7 @@ export default function ChatView() {
 
   return (
     <div style={{ padding: '14px 0', display: 'flex', flexDirection: 'column', height: 'calc(100vh - 260px)' }}>
-      <h2 style={{ fontSize: '17px', fontWeight: 800, color: t.text.primary, margin: '0 0 3px' }}>Chat with Dora</h2>
+      <h2 style={{ fontSize: '17px', fontWeight: 800, color: t.text.primary, margin: '0 0 3px' }}>AI Career Chat</h2>
       <p style={{ fontSize: '11px', color: t.text.muted, margin: '0 0 14px' }}>Your AI career advisor</p>
 
       {/* Quick actions (show only when few messages) */}
@@ -132,7 +132,7 @@ export default function ChatView() {
         <input
           type="text" value={input} onChange={e => setInput(e.target.value)}
           onKeyDown={e => e.key === 'Enter' && send()}
-          placeholder="Ask Dora anything..."
+          placeholder="Ask Careerly anything..."
           style={{
             flex: 1, padding: '12px 14px', borderRadius: t.radius.md, fontSize: '14px', fontWeight: 500,
             color: t.text.primary, background: t.bg.card, border: `1px solid ${t.border.subtle}`,

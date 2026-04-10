@@ -15,7 +15,7 @@ const tabs = [
   { id: 'resources' as const, label: 'Resources', icon: BookOpenIcon },
   { id: 'career' as const, label: 'Career', icon: BriefcaseIcon },
   { id: 'schedule' as const, label: 'Schedule', icon: CalendarIcon },
-  { id: 'chat' as const, label: 'Dora AI', icon: MessageCircleIcon },
+  { id: 'chat' as const, label: 'AI Chat', icon: MessageCircleIcon },
 ];
 
 export default function Dashboard() {
@@ -35,8 +35,7 @@ export default function Dashboard() {
               <CompassIcon size={14} color="#fff" />
             </div>
             <h1 style={{ fontSize: '18px', fontWeight: 800, margin: 0 }}>
-              <span style={{ color: t.accent.primary }}>Hey</span>{' '}
-              <span style={{ color: t.text.primary }}>Dora</span>
+              <span style={{ color: t.accent.primary }}>Career</span><span style={{ color: t.text.primary }}>ly</span>
             </h1>
           </div>
           <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>

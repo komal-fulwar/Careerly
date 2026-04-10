@@ -1,4 +1,4 @@
-// Hey Dora — Design System (Light + Dark)
+// Careerly — Design System (Light + Dark)
 
 import { useThemeStore } from '@/store/useThemeStore';
 

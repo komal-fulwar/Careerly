@@ -46,8 +46,7 @@ export default function LandingScreen() {
 
           {/* Title with stagger */}
           <h1 style={{ fontSize: '46px', fontWeight: 900, marginBottom: '8px', letterSpacing: '-0.04em', lineHeight: 1.05, animation: 'slide-up 0.6s ease-out 0.15s both' }}>
-            <span style={{ color: t.accent.primary }}>Hey</span>{' '}
-            <span style={{ color: t.text.primary }}>Dora</span>
+            <span style={{ color: t.accent.primary }}>Career</span><span style={{ color: t.text.primary }}>ly</span>
           </h1>
 
           <p style={{ fontSize: '16px', fontWeight: 600, marginBottom: '12px', color: t.text.secondary, animation: 'slide-up 0.6s ease-out 0.25s both' }}>

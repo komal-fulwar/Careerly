@@ -70,6 +70,134 @@ export function generateMockRoadmap(userData: OnboardingData): RoadmapData {
         { title: 'Design Lead', salaryRange: '₹18L - ₹50L', avgSalary: '₹28L/yr', growth: '+18%', demand: 'Medium', companies: ['Uber', 'Airbnb', 'Stripe', 'CRED'], skills: ['Leadership', 'Strategy', 'Mentoring', 'Design Ops'] },
       ],
     },
+    'Product Mgmt': {
+      modules: [
+        { title: 'Product Thinking', description: 'Problem discovery, user needs, and product vision', duration: '2 weeks', topics: ['Problem Discovery', 'User Needs', 'Product Vision', 'OKRs'] },
+        { title: 'Market & User Research', description: 'Competitive analysis, user interviews, and market sizing', duration: '2 weeks', topics: ['Competitive Analysis', 'User Interviews', 'TAM/SAM/SOM', 'Surveys'] },
+        { title: 'Roadmap & Prioritization', description: 'Building product roadmaps and prioritization frameworks', duration: '2 weeks', topics: ['RICE Framework', 'MoSCoW', 'Story Mapping', 'Sprint Planning'] },
+        { title: 'Metrics & Analytics', description: 'Defining KPIs, tracking metrics, and data-driven decisions', duration: '3 weeks', topics: ['North Star Metric', 'Funnel Analysis', 'A/B Testing', 'Cohort Analysis'] },
+        { title: 'Stakeholder Management', description: 'Cross-functional collaboration, PRDs, and communication', duration: '2 weeks', topics: ['PRD Writing', 'Stakeholder Maps', 'Presentations', 'Negotiation'] },
+        { title: 'Product Launch', description: 'Go-to-market strategy, launches, and iteration', duration: '2 weeks', topics: ['GTM Strategy', 'Launch Playbook', 'Post-Launch', 'Iteration'] },
+      ],
+      careers: [
+        { title: 'Associate Product Manager', salaryRange: '₹8L - ₹20L', avgSalary: '₹12L/yr', growth: '+28%', demand: 'High', companies: ['Google', 'Flipkart', 'Razorpay', 'Swiggy'], skills: ['Analytics', 'SQL', 'Roadmapping', 'Agile'] },
+        { title: 'Product Manager', salaryRange: '₹15L - ₹40L', avgSalary: '₹24L/yr', growth: '+32%', demand: 'High', companies: ['Microsoft', 'Amazon', 'Uber', 'PhonePe'], skills: ['Strategy', 'Data', 'PRDs', 'Leadership'] },
+        { title: 'Senior PM / Group PM', salaryRange: '₹30L - ₹70L', avgSalary: '₹45L/yr', growth: '+20%', demand: 'Medium', companies: ['Google', 'Meta', 'Apple', 'Netflix'], skills: ['Vision', 'P&L', 'Team Building', 'Strategy'] },
+        { title: 'Product Analyst', salaryRange: '₹6L - ₹18L', avgSalary: '₹10L/yr', growth: '+25%', demand: 'High', companies: ['Paytm', 'CRED', 'Meesho', 'Dream11'], skills: ['SQL', 'Python', 'Mixpanel', 'Excel'] },
+      ],
+    },
+    'Cybersecurity': {
+      modules: [
+        { title: 'Networking Fundamentals', description: 'TCP/IP, DNS, firewalls, and network architecture', duration: '3 weeks', topics: ['TCP/IP', 'DNS & DHCP', 'Firewalls', 'Network Topologies'] },
+        { title: 'Linux & System Admin', description: 'Linux command line, permissions, and server management', duration: '2 weeks', topics: ['Linux CLI', 'File Permissions', 'Process Management', 'Shell Scripting'] },
+        { title: 'Security Fundamentals', description: 'CIA triad, encryption, authentication, and access control', duration: '3 weeks', topics: ['CIA Triad', 'Encryption', 'PKI', 'Access Control'] },
+        { title: 'Ethical Hacking & Pentesting', description: 'Vulnerability scanning, exploitation, and penetration testing', duration: '4 weeks', topics: ['Nmap', 'Metasploit', 'Burp Suite', 'OWASP Top 10'] },
+        { title: 'Incident Response & Forensics', description: 'Threat detection, incident handling, and digital forensics', duration: '2 weeks', topics: ['SIEM', 'Log Analysis', 'Malware Analysis', 'Forensics Tools'] },
+        { title: 'Compliance & Certifications', description: 'Security frameworks, compliance, and certification prep', duration: '2 weeks', topics: ['ISO 27001', 'NIST', 'CEH Prep', 'CompTIA Security+'] },
+      ],
+      careers: [
+        { title: 'Security Analyst', salaryRange: '₹5L - ₹18L', avgSalary: '₹10L/yr', growth: '+30%', demand: 'High', companies: ['TCS', 'Infosys', 'Wipro', 'Deloitte'], skills: ['SIEM', 'Networking', 'Incident Response', 'Linux'] },
+        { title: 'Penetration Tester', salaryRange: '₹8L - ₹25L', avgSalary: '₹14L/yr', growth: '+35%', demand: 'High', companies: ['Payatu', 'CrowdStrike', 'Palo Alto', 'Cisco'], skills: ['Burp Suite', 'Metasploit', 'Python', 'OWASP'] },
+        { title: 'Security Engineer', salaryRange: '₹12L - ₹40L', avgSalary: '₹22L/yr', growth: '+38%', demand: 'High', companies: ['Google', 'Amazon', 'Microsoft', 'Goldman Sachs'], skills: ['Cloud Security', 'IAM', 'DevSecOps', 'Encryption'] },
+        { title: 'CISO', salaryRange: '₹40L - ₹1.2Cr', avgSalary: '₹65L/yr', growth: '+15%', demand: 'Medium', companies: ['Reliance', 'HDFC', 'Infosys', 'TCS'], skills: ['Risk Mgmt', 'Compliance', 'Leadership', 'Strategy'] },
+      ],
+    },
+    'AI & Machine Learning': {
+      modules: [
+        { title: 'Python & Math Foundations', description: 'Python, linear algebra, calculus, and probability for ML', duration: '3 weeks', topics: ['Python', 'Linear Algebra', 'Calculus', 'Probability'] },
+        { title: 'Classical Machine Learning', description: 'Supervised, unsupervised learning, and ensemble methods', duration: '3 weeks', topics: ['Regression', 'Trees & Forests', 'SVMs', 'Clustering'] },
+        { title: 'Deep Learning & Neural Nets', description: 'Neural networks, CNNs, RNNs, and training techniques', duration: '4 weeks', topics: ['Backpropagation', 'CNNs', 'RNNs/LSTMs', 'Regularization'] },
+        { title: 'NLP & Language Models', description: 'Text processing, transformers, and large language models', duration: '3 weeks', topics: ['Tokenization', 'Transformers', 'BERT/GPT', 'Fine-tuning'] },
+        { title: 'Computer Vision', description: 'Image classification, object detection, and generative models', duration: '3 weeks', topics: ['Image Classification', 'Object Detection', 'GANs', 'Diffusion Models'] },
+        { title: 'MLOps & Deployment', description: 'Model serving, monitoring, and production ML systems', duration: '2 weeks', topics: ['MLflow', 'Docker', 'Model Serving', 'A/B Testing'] },
+      ],
+      careers: [
+        { title: 'ML Engineer', salaryRange: '₹12L - ₹45L', avgSalary: '₹25L/yr', growth: '+42%', demand: 'High', companies: ['Google', 'NVIDIA', 'Amazon', 'Microsoft'], skills: ['PyTorch', 'TensorFlow', 'MLOps', 'Python'] },
+        { title: 'AI Research Scientist', salaryRange: '₹20L - ₹80L', avgSalary: '₹40L/yr', growth: '+48%', demand: 'High', companies: ['DeepMind', 'OpenAI', 'Meta AI', 'Google Brain'], skills: ['Math', 'PyTorch', 'Papers', 'Innovation'] },
+        { title: 'NLP Engineer', salaryRange: '₹15L - ₹50L', avgSalary: '₹28L/yr', growth: '+52%', demand: 'High', companies: ['Google', 'Bing', 'Grammarly', 'Haptik'], skills: ['Transformers', 'Python', 'LLMs', 'Linguistics'] },
+        { title: 'Computer Vision Engineer', salaryRange: '₹12L - ₹40L', avgSalary: '₹22L/yr', growth: '+35%', demand: 'High', companies: ['Tesla', 'NVIDIA', 'Qualcomm', 'Samsung'], skills: ['OpenCV', 'PyTorch', 'CNNs', 'CUDA'] },
+      ],
+    },
+    'Mobile Development': {
+      modules: [
+        { title: 'Mobile UI Fundamentals', description: 'Mobile design patterns, navigation, and responsive layouts', duration: '2 weeks', topics: ['Mobile UX', 'Navigation Patterns', 'Touch Targets', 'Responsive Layout'] },
+        { title: 'React Native Basics', description: 'Core concepts, components, and cross-platform development', duration: '3 weeks', topics: ['JSX', 'Core Components', 'Styling', 'Navigation'] },
+        { title: 'State & Data Management', description: 'State management, API integration, and local storage', duration: '3 weeks', topics: ['Zustand/Redux', 'REST APIs', 'AsyncStorage', 'Caching'] },
+        { title: 'Native Features', description: 'Camera, location, push notifications, and device APIs', duration: '2 weeks', topics: ['Camera', 'Geolocation', 'Push Notifications', 'Biometrics'] },
+        { title: 'Performance & Testing', description: 'App optimization, profiling, and testing strategies', duration: '2 weeks', topics: ['Profiling', 'Lazy Loading', 'Jest', 'E2E Testing'] },
+        { title: 'App Store Deployment', description: 'Publishing to App Store and Play Store', duration: '2 weeks', topics: ['App Signing', 'Store Listing', 'CI/CD', 'App Review'] },
+      ],
+      careers: [
+        { title: 'React Native Developer', salaryRange: '₹6L - ₹25L', avgSalary: '₹14L/yr', growth: '+28%', demand: 'High', companies: ['Flipkart', 'Swiggy', 'PhonePe', 'CRED'], skills: ['React Native', 'TypeScript', 'Redux', 'APIs'] },
+        { title: 'iOS Developer', salaryRange: '₹8L - ₹35L', avgSalary: '₹18L/yr', growth: '+22%', demand: 'High', companies: ['Apple', 'Google', 'Uber', 'PhonePe'], skills: ['Swift', 'SwiftUI', 'Core Data', 'UIKit'] },
+        { title: 'Android Developer', salaryRange: '₹6L - ₹30L', avgSalary: '₹15L/yr', growth: '+20%', demand: 'High', companies: ['Google', 'Samsung', 'Paytm', 'Dream11'], skills: ['Kotlin', 'Jetpack', 'Firebase', 'MVVM'] },
+        { title: 'Flutter Developer', salaryRange: '₹5L - ₹22L', avgSalary: '₹12L/yr', growth: '+35%', demand: 'High', companies: ['Google', 'Alibaba', 'BMW', 'Realtor'], skills: ['Dart', 'Flutter', 'Provider', 'Firebase'] },
+      ],
+    },
+    'Cloud & DevOps': {
+      modules: [
+        { title: 'Cloud Computing Basics', description: 'Cloud models, services, and AWS/Azure/GCP overview', duration: '2 weeks', topics: ['IaaS/PaaS/SaaS', 'AWS Overview', 'Azure Overview', 'GCP Overview'] },
+        { title: 'Linux & Networking', description: 'Linux administration, networking, and security fundamentals', duration: '3 weeks', topics: ['Linux CLI', 'Networking', 'SSH', 'Security Basics'] },
+        { title: 'Containers & Docker', description: 'Containerization, Docker images, and Docker Compose', duration: '2 weeks', topics: ['Containers', 'Dockerfiles', 'Docker Compose', 'Registries'] },
+        { title: 'Kubernetes & Orchestration', description: 'Container orchestration, deployments, and scaling', duration: '3 weeks', topics: ['Pods & Services', 'Deployments', 'Helm Charts', 'Auto-scaling'] },
+        { title: 'CI/CD & Automation', description: 'Continuous integration, delivery, and infrastructure as code', duration: '3 weeks', topics: ['GitHub Actions', 'Jenkins', 'Terraform', 'Ansible'] },
+        { title: 'Monitoring & SRE', description: 'Observability, monitoring, and site reliability engineering', duration: '2 weeks', topics: ['Prometheus', 'Grafana', 'ELK Stack', 'Incident Response'] },
+      ],
+      careers: [
+        { title: 'DevOps Engineer', salaryRange: '₹8L - ₹35L', avgSalary: '₹18L/yr', growth: '+32%', demand: 'High', companies: ['Atlassian', 'Adobe', 'Freshworks', 'Nutanix'], skills: ['Docker', 'K8s', 'CI/CD', 'AWS'] },
+        { title: 'Cloud Architect', salaryRange: '₹20L - ₹55L', avgSalary: '₹35L/yr', growth: '+28%', demand: 'High', companies: ['AWS', 'Microsoft', 'Google', 'IBM'], skills: ['AWS', 'Architecture', 'Security', 'Cost Optimization'] },
+        { title: 'SRE Engineer', salaryRange: '₹12L - ₹45L', avgSalary: '₹25L/yr', growth: '+38%', demand: 'High', companies: ['Google', 'LinkedIn', 'Uber', 'Netflix'], skills: ['Linux', 'Python', 'Monitoring', 'Distributed Systems'] },
+        { title: 'Platform Engineer', salaryRange: '₹15L - ₹40L', avgSalary: '₹22L/yr', growth: '+35%', demand: 'High', companies: ['Spotify', 'Stripe', 'Datadog', 'HashiCorp'], skills: ['Terraform', 'K8s', 'Go', 'Platform Design'] },
+      ],
+    },
+    'Blockchain': {
+      modules: [
+        { title: 'Blockchain Fundamentals', description: 'Distributed ledger technology, consensus, and cryptography', duration: '2 weeks', topics: ['Hash Functions', 'Consensus', 'Merkle Trees', 'P2P Networks'] },
+        { title: 'Ethereum & EVM', description: 'Ethereum architecture, accounts, transactions, and gas', duration: '2 weeks', topics: ['EVM', 'Accounts', 'Transactions', 'Gas Optimization'] },
+        { title: 'Solidity Programming', description: 'Smart contract development with Solidity', duration: '4 weeks', topics: ['Solidity Basics', 'Data Types', 'Inheritance', 'Security Patterns'] },
+        { title: 'DeFi & Token Standards', description: 'ERC-20, ERC-721, DeFi protocols, and yield farming', duration: '3 weeks', topics: ['ERC-20', 'ERC-721/NFTs', 'AMMs', 'Lending Protocols'] },
+        { title: 'dApp Development', description: 'Building decentralized applications with Web3.js and React', duration: '3 weeks', topics: ['Web3.js', 'Ethers.js', 'IPFS', 'React + Web3'] },
+        { title: 'Security & Auditing', description: 'Smart contract security, auditing, and best practices', duration: '2 weeks', topics: ['Reentrancy', 'Overflow', 'Audit Tools', 'Formal Verification'] },
+      ],
+      careers: [
+        { title: 'Blockchain Developer', salaryRange: '₹10L - ₹40L', avgSalary: '₹20L/yr', growth: '+45%', demand: 'High', companies: ['Polygon', 'WazirX', 'CoinDCX', 'Ethereum Foundation'], skills: ['Solidity', 'Web3.js', 'Hardhat', 'DeFi'] },
+        { title: 'Smart Contract Auditor', salaryRange: '₹15L - ₹60L', avgSalary: '₹30L/yr', growth: '+50%', demand: 'High', companies: ['OpenZeppelin', 'Trail of Bits', 'Consensys', 'ChainSecurity'], skills: ['Solidity', 'Security', 'Formal Verification', 'Fuzzing'] },
+        { title: 'Web3 Full-Stack Dev', salaryRange: '₹8L - ₹35L', avgSalary: '₹18L/yr', growth: '+40%', demand: 'High', companies: ['Uniswap', 'Aave', 'Compound', 'Polygon'], skills: ['React', 'Solidity', 'Ethers.js', 'IPFS'] },
+        { title: 'Protocol Researcher', salaryRange: '₹20L - ₹70L', avgSalary: '₹38L/yr', growth: '+35%', demand: 'Medium', companies: ['Ethereum Foundation', 'Paradigm', 'a16z', 'Flashbots'], skills: ['Cryptography', 'Game Theory', 'Math', 'Rust'] },
+      ],
+    },
+    'Game Development': {
+      modules: [
+        { title: 'Game Design Fundamentals', description: 'Game mechanics, level design, and player psychology', duration: '2 weeks', topics: ['Game Mechanics', 'Level Design', 'Player Psychology', 'Game Loops'] },
+        { title: 'Unity Basics', description: 'Unity engine, C# scripting, and 2D game development', duration: '3 weeks', topics: ['Unity Editor', 'C# Basics', '2D Physics', 'Sprites & Animation'] },
+        { title: '3D Game Development', description: '3D modeling, lighting, and environment design in Unity', duration: '3 weeks', topics: ['3D Objects', 'Materials', 'Lighting', 'Cameras'] },
+        { title: 'Game AI & Physics', description: 'AI pathfinding, physics systems, and particle effects', duration: '3 weeks', topics: ['NavMesh', 'State Machines', 'Raycasting', 'Particle Systems'] },
+        { title: 'Multiplayer & Networking', description: 'Online multiplayer, matchmaking, and server architecture', duration: '2 weeks', topics: ['Netcode', 'Photon', 'Matchmaking', 'Lag Compensation'] },
+        { title: 'Publishing & Monetization', description: 'Game publishing, ad integration, and monetization', duration: '2 weeks', topics: ['App Store', 'Steam', 'Ad SDKs', 'In-App Purchases'] },
+      ],
+      careers: [
+        { title: 'Unity Game Developer', salaryRange: '₹5L - ₹20L', avgSalary: '₹10L/yr', growth: '+22%', demand: 'High', companies: ['Ubisoft', 'Zynga', 'nCore Games', 'Moonfrog'], skills: ['Unity', 'C#', '3D Math', 'Physics'] },
+        { title: 'Unreal Engine Developer', salaryRange: '₹8L - ₹30L', avgSalary: '₹16L/yr', growth: '+25%', demand: 'Medium', companies: ['Epic Games', 'EA', 'Ubisoft', 'Rockstar'], skills: ['Unreal', 'C++', 'Blueprints', 'Shaders'] },
+        { title: 'Game Designer', salaryRange: '₹4L - ₹18L', avgSalary: '₹9L/yr', growth: '+18%', demand: 'Medium', companies: ['Supercell', 'Riot', 'nCore', 'Hike'], skills: ['Level Design', 'Balancing', 'UX', 'Narrative'] },
+        { title: 'Technical Artist', salaryRange: '₹6L - ₹25L', avgSalary: '₹13L/yr', growth: '+20%', demand: 'Medium', companies: ['Ubisoft', 'EA', 'Unity', 'Adobe'], skills: ['Shaders', '3D Modeling', 'Pipeline', 'VFX'] },
+      ],
+    },
+    'Content Creation': {
+      modules: [
+        { title: 'Content Strategy Basics', description: 'Niche selection, audience research, and content planning', duration: '2 weeks', topics: ['Niche Selection', 'Audience Research', 'Content Calendar', 'Brand Voice'] },
+        { title: 'Writing & Copywriting', description: 'Blog writing, copywriting formulas, and SEO content', duration: '3 weeks', topics: ['Headlines', 'AIDA Framework', 'SEO Writing', 'Storytelling'] },
+        { title: 'Video Production', description: 'YouTube, filming, editing, and thumbnail design', duration: '3 weeks', topics: ['Scripting', 'Filming', 'Editing Tools', 'Thumbnails'] },
+        { title: 'Social Media Growth', description: 'Platform algorithms, growth hacking, and engagement', duration: '2 weeks', topics: ['Algorithm Hacking', 'Reels Strategy', 'Engagement', 'Hashtags'] },
+        { title: 'Monetization', description: 'Brand deals, affiliate marketing, and digital products', duration: '2 weeks', topics: ['Brand Deals', 'Affiliate Marketing', 'Digital Products', 'Memberships'] },
+        { title: 'Building a Personal Brand', description: 'Authority building, community, and long-term growth', duration: '2 weeks', topics: ['Personal Branding', 'Community Building', 'Email Lists', 'Scaling'] },
+      ],
+      careers: [
+        { title: 'Content Creator / YouTuber', salaryRange: '₹2L - ₹50L+', avgSalary: '₹8L/yr', growth: '+40%', demand: 'High', companies: ['YouTube', 'Instagram', 'Substack', 'Patreon'], skills: ['Video Editing', 'Scripting', 'SEO', 'Thumbnails'] },
+        { title: 'Copywriter', salaryRange: '₹4L - ₹15L', avgSalary: '₹8L/yr', growth: '+22%', demand: 'High', companies: ['Zomato', 'Swiggy', 'Dunzo', 'Slice'], skills: ['Copywriting', 'SEO', 'Brand Voice', 'Ads'] },
+        { title: 'Social Media Manager', salaryRange: '₹3L - ₹12L', avgSalary: '₹6L/yr', growth: '+28%', demand: 'High', companies: ['Agencies', 'Startups', 'D2C Brands', 'SaaS'], skills: ['Content Planning', 'Analytics', 'Design', 'Community'] },
+        { title: 'Technical Writer', salaryRange: '₹5L - ₹20L', avgSalary: '₹10L/yr', growth: '+18%', demand: 'Medium', companies: ['Google', 'Microsoft', 'Stripe', 'Razorpay'], skills: ['Documentation', 'Markdown', 'APIs', 'Developer Tools'] },
+      ],
+    },
   };
 
   const defaultConfig = roadmapConfigs['Digital Marketing'];
